@@ -1034,3 +1034,912 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.01-07.02.19:328][115]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.216
 [2021.05.01-07.03.39:242][271]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
 [2021.05.01-07.04.56:299][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.05.01-07.07.07:847][476]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode
+[2021.05.01-07.07.07:999][476]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.05.01-07.07.12:248][889]LogSlate: Window 'FirstPersonGameMode' being destroyed
+[2021.05.01-07.07.12:251][889]LogSlate: Window 'FirstPersonGameMode' being destroyed
+[2021.05.01-07.07.12:291][889]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.07.12:291][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-07.08.33:905][946]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.05.01-07.08.34:214][946]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.01-07.08.34:307][947]LogSlate: Took 0.000458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.01-07.09.28:216][793]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2021.05.01-07.09.28:220][793]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2021.05.01-07.09.28:270][793]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.09.28:270][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-07.09.30:712][ 37]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode
+[2021.05.01-07.09.32:429][203]LogSlate: Window 'FirstPersonGameMode' being destroyed
+[2021.05.01-07.09.32:432][203]LogSlate: Window 'FirstPersonGameMode' being destroyed
+[2021.05.01-07.09.32:470][203]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.09.32:470][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-07.09.41:183][216]LogTemp: Repeating last play command: Simulate
+[2021.05.01-07.09.41:196][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.01-07.09.41:196][216]PIE: New page: SIE session: FirstPersonExampleMap (2 May 2021, 3:09:41 am)
+[2021.05.01-07.09.41:220][216]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.05.01-07.09.41:415][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.194946s)
+[2021.05.01-07.09.41:416][216]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.05.01-07.09.41:416][216]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000253D26A9C00), frame # 48216
+[2021.05.01-07.09.41:416][216]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000253D2748540), frame # 48216
+[2021.05.01-07.09.41:416][216]LogPlayLevel: PIE: World Init took: (0.001285s)
+[2021.05.01-07.09.41:417][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.196747s)
+[2021.05.01-07.09.41:442][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.05.01-07.09.41:446][216]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.01-07.09.41:447][216]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.01-07.09.41:447][216]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.01-07.09.41:447][216]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.01-07.09.41:447][216]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.01-07.09.41:447][216]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.01-07.09.41:447][216]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.01-07.09.41:447][216]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.01-07.09.41:447][216]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.01-07.09.41:447][216]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.01-07.09.41:449][216]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.01-07.09.41:449][216]LogAudioMixer: Display: 1: FrontRight
+[2021.05.01-07.09.41:460][216]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.05.01-07.09.41:460][216]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.01-07.09.41:460][216]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.01-07.09.41:460][216]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.01-07.09.41:460][216]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.01-07.09.41:470][216]LogInit: FAudioDevice initialized.
+[2021.05.01-07.09.41:478][216]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.05.01-07.09.41:534][216]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.05.01-17.09.41
+[2021.05.01-07.09.41:535][216]LogWorld: Bringing up level for play took: 0.056045
+[2021.05.01-07.09.41:535][216]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.05.01-07.09.41:540][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.41:540][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.41:540][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.41:540][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.41:540][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.41:541][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.41:541][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.41:541][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.41:541][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.41:541][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.41:541][216]PIE: Server logged in
+[2021.05.01-07.09.41:541][216]PIE: Play in editor total start time 0.346 seconds.
+[2021.05.01-07.09.41:549][216]LogAudio: Warning: Detected orphaned looping sound 'Lab_Sound_Scape'.
+[2021.05.01-07.09.52:963][496]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.09.52:964][496]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.52:964][496]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.09.52:964][496]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.52:964][496]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.09.52:964][496]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.52:964][496]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.09.52:964][496]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.52:964][496]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.09.52:964][496]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.52:964][496]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.09.52:964][496]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.52:964][496]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.09.52:964][496]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.52:964][496]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.09.52:964][496]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.10.35:421][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.01-07.10.35:421][554]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.05.01-07.10.35:422][554]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.10.35:433][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-07.10.35:441][554]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.01-07.10.35:446][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-07.10.35:458][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.01-07.10.35:497][554]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000253D26A9C00), frame # 53554
+[2021.05.01-07.10.35:497][554]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000253D2748540), frame # 53554
+[2021.05.01-07.10.35:499][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.05.01-07.10.35:588][555]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.05.01-07.10.36:397][603]LogSlate: Window 'Message Log' being destroyed
+[2021.05.01-07.10.36:401][603]LogSlate: Window 'Message Log' being destroyed
+[2021.05.01-07.10.45:997][690]Cmd: DELETE
+[2021.05.01-07.10.45:997][690]Cmd: ACTOR DELETE
+[2021.05.01-07.10.46:052][690]LogEditorActor: Deleted Actor: Brush
+[2021.05.01-07.10.46:071][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.05.01-07.10.46:152][690]LogEditorActor: Deleted 1 Actors (0.154 secs)
+[2021.05.01-07.10.55:602][785]Cmd: TRANSACTION UNDO
+[2021.05.01-07.10.55:602][785]LogEditorTransaction: Undo Delete Actors
+[2021.05.01-07.11.20:583][554]Cmd: DELETE
+[2021.05.01-07.11.20:583][554]Cmd: ACTOR DELETE
+[2021.05.01-07.11.20:631][554]LogEditorActor: Deleted Actor: DirectionalLight
+[2021.05.01-07.11.20:650][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.05.01-07.11.20:656][554]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2021.05.01-07.11.25:357][ 86]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light)
+[2021.05.01-07.11.26:144][176]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light)
+[2021.05.01-07.11.29:790][577]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light)
+[2021.05.01-07.11.30:260][631]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light)
+[2021.05.01-07.11.33:585][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (room_pieces_roof_3x5)
+[2021.05.01-07.11.34:098][ 65]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light)
+[2021.05.01-07.11.34:469][107]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light)
+[2021.05.01-07.11.36:486][346]Cmd: TRANSACTION UNDO
+[2021.05.01-07.11.36:486][346]LogEditorTransaction: Undo Move Actors
+[2021.05.01-07.11.38:733][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (room_pieces_roof_3x3)
+[2021.05.01-07.11.39:183][593]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light2)
+[2021.05.01-07.11.40:000][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (room_pieces_roof_3x3)
+[2021.05.01-07.11.40:858][788]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light2)
+[2021.05.01-07.11.41:318][841]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light2)
+[2021.05.01-07.11.44:976][251]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light3)
+[2021.05.01-07.11.46:889][461]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light)
+[2021.05.01-07.11.47:516][531]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light)
+[2021.05.01-07.13.12:814][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.05.01-07.13.13:632][211]LogSavePackage: Moving '../../../../../../Users/Mr JayLazza Sir/Desktop/Unity Project/CaptiveQuandary/CaptiveQuandaryGB/CaptiveQuandaryGB/Saved/FirstPersonExampleMap_Auto1D13B683A46605792F68F649FEFD65F62.tmp' to '../../../../../../Users/Mr JayLazza Sir/Desktop/Unity Project/CaptiveQuandary/CaptiveQuandaryGB/CaptiveQuandaryGB/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2021.05.01-07.13.13:635][211]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.837
+[2021.05.01-07.13.13:635][211]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.837
+[2021.05.01-07.13.31:802][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.01-07.13.32:905][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (room_pieces_large_wall_3x6)
+[2021.05.01-07.13.35:275][720]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light2)
+[2021.05.01-07.13.39:481][187]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light)
+[2021.05.01-07.13.50:773][403]LogTemp: Repeating last play command: Simulate
+[2021.05.01-07.13.50:787][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.01-07.13.50:787][403]PIE: New page: SIE session: FirstPersonExampleMap (2 May 2021, 3:13:50 am)
+[2021.05.01-07.13.50:821][403]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.05.01-07.13.51:015][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.194893s)
+[2021.05.01-07.13.51:016][403]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.05.01-07.13.51:016][403]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000253D5593E00), frame # 75403
+[2021.05.01-07.13.51:016][403]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000253EBEC5BC0), frame # 75403
+[2021.05.01-07.13.51:017][403]LogPlayLevel: PIE: World Init took: (0.002172s)
+[2021.05.01-07.13.51:018][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.197754s)
+[2021.05.01-07.13.51:034][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.05.01-07.13.51:038][403]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.01-07.13.51:038][403]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.01-07.13.51:038][403]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.01-07.13.51:038][403]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.01-07.13.51:038][403]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.01-07.13.51:038][403]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.01-07.13.51:038][403]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.01-07.13.51:038][403]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.01-07.13.51:038][403]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.01-07.13.51:038][403]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.01-07.13.51:041][403]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.01-07.13.51:041][403]LogAudioMixer: Display: 1: FrontRight
+[2021.05.01-07.13.51:052][403]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.05.01-07.13.51:052][403]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.01-07.13.51:052][403]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.01-07.13.51:052][403]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.01-07.13.51:053][403]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.01-07.13.51:063][403]LogInit: FAudioDevice initialized.
+[2021.05.01-07.13.51:069][403]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.05.01-07.13.51:130][403]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.05.01-17.13.51
+[2021.05.01-07.13.51:132][403]LogWorld: Bringing up level for play took: 0.063208
+[2021.05.01-07.13.51:133][403]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.05.01-07.13.51:138][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.13.51:138][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.13.51:138][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.13.51:138][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.13.51:138][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.13.51:138][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.13.51:138][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.13.51:138][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.13.51:138][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.13.51:138][403]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.13.51:138][403]PIE: Server logged in
+[2021.05.01-07.13.51:139][403]PIE: Play in editor total start time 0.353 seconds.
+[2021.05.01-07.13.51:146][403]LogAudio: Warning: Detected orphaned looping sound 'Lab_Sound_Scape'.
+[2021.05.01-07.14.00:338][441]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.00:338][441]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.00:338][441]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.00:338][441]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.00:338][441]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.00:338][441]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.00:339][441]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.00:339][441]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.00:339][441]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.14:891][187]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_0 via property SpawnSound, but AudioComponent_0 is pending kill". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.14:891][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.14:891][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.14:891][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.14:891][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.14:891][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.14:891][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.14:891][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.14:891][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.19:769][772]LogScript: Warning: Attempted to access AudioComponent_0 via property SpawnSound, but AudioComponent_0 is pending kill
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPuzzleLeft
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.19:769][772]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_0 via property SpawnSound, but AudioComponent_0 is pending kill". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.19:769][772]LogScript: Warning: Attempted to access AudioComponent_1 via property SpawnSound, but AudioComponent_1 is pending kill
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPuzzleLeft
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.19:769][772]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_1 via property SpawnSound, but AudioComponent_1 is pending kill". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.19:770][772]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPuzzleLeft
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.19:770][772]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.19:770][772]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPuzzleLeft
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.19:770][772]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.19:770][772]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPuzzleLeft
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.19:770][772]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.19:770][772]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPuzzleLeft
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.19:770][772]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.19:770][772]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPuzzleLeft
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.19:770][772]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.19:770][772]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPuzzleLeft
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.19:770][772]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.19:770][772]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.29:780][973]LogScript: Warning: Attempted to access AudioComponent_0 via property SpawnSound, but AudioComponent_0 is pending kill
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.29:780][973]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_0 via property SpawnSound, but AudioComponent_0 is pending kill". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.29:780][973]LogScript: Warning: Attempted to access AudioComponent_1 via property SpawnSound, but AudioComponent_1 is pending kill
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.29:780][973]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_1 via property SpawnSound, but AudioComponent_1 is pending kill". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.29:780][973]LogScript: Warning: Attempted to access AudioComponent_2 via property SpawnSound, but AudioComponent_2 is pending kill
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.29:780][973]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_2 via property SpawnSound, but AudioComponent_2 is pending kill". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.29:780][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.29:780][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.29:780][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.29:781][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.29:781][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.29:781][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.29:781][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.14.29:781][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.29:781][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.14.29:781][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.15:048][877]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.15:049][877]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.15:049][877]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.15:049][877]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.15:049][877]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.15:049][877]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.15:049][877]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.15:049][877]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.15:049][877]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.15:049][877]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.15:049][877]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.15:049][877]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.15:049][877]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.15:049][877]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.15:049][877]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.15:049][877]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.15:049][877]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.15:049][877]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.15:049][877]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.15:049][877]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.20:067][479]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:023F
+[2021.05.01-07.17.20:067][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.20:067][479]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:023F
+[2021.05.01-07.17.20:067][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.20:067][479]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:023F
+[2021.05.01-07.17.20:067][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.20:067][479]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:023F
+[2021.05.01-07.17.20:067][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.20:067][479]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:023F
+[2021.05.01-07.17.20:067][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.20:067][479]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:023F
+[2021.05.01-07.17.20:067][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.20:067][479]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPuzzle
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:023F
+[2021.05.01-07.17.20:067][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.20:067][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.20:067][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.32:517][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.32:517][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.32:517][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.32:517][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.32:517][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.32:518][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.32:518][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.32:518][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.32:518][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.32:518][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.32:518][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.32:518][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.32:518][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.32:518][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.32:518][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.32:518][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.17.32:518][973]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SecondPlatform
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.17.32:518][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.10:040][472]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.10:041][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.10:041][472]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.10:041][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.10:041][472]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.10:041][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.10:041][472]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.10:041][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.10:041][472]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.10:041][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.10:041][472]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.10:041][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.10:041][472]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.10:041][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.10:041][472]LogScript: Warning: Attempted to access AudioComponent_7 via property SpawnSound, but AudioComponent_7 is pending kill
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.10:041][472]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_7 via property SpawnSound, but AudioComponent_7 is pending kill". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.10:041][472]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.10:041][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.10:041][472]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalHallway
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.10:041][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.16:633][263]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalRoom
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.16:633][263]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.16:633][263]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalRoom
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.16:633][263]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.16:633][263]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalRoom
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.16:633][263]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.16:633][263]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalRoom
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.16:633][263]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.16:633][263]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalRoom
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.16:633][263]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.16:633][263]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalRoom
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.16:633][263]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.16:633][263]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalRoom
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.16:633][263]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.16:633][263]LogScript: Warning: Attempted to access AudioComponent_7 via property SpawnSound, but AudioComponent_7 is pending kill
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalRoom
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.16:633][263]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_7 via property SpawnSound, but AudioComponent_7 is pending kill". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.16:633][263]LogScript: Warning: Accessed None trying to read property SpawnSound
+	Puzzle_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FinalRoom
+	Function /Game/FirstPersonBP/Triggers/Puzzle.Puzzle_C:ExecuteUbergraph_Puzzle:0538
+[2021.05.01-07.18.16:633][263]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SpawnSound". Blueprint:  Puzzle Function:  Execute Ubergraph Puzzle Graph:  EventGraph Node:  Stop
+[2021.05.01-07.18.20:721][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.01-07.18.20:721][748]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.05.01-07.18.20:723][748]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.18.20:733][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-07.18.20:739][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.01-07.18.20:744][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-07.18.20:759][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.01-07.18.20:781][748]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000253EBEC5BC0), frame # 92748
+[2021.05.01-07.18.20:781][748]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000253D5593E00), frame # 92748
+[2021.05.01-07.18.20:789][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.05.01-07.18.20:900][749]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.05.01-07.18.21:970][839]LogSlate: Window 'Message Log' being destroyed
+[2021.05.01-07.18.21:987][839]LogSlate: Window 'Message Log' being destroyed
+[2021.05.01-07.18.37:633][682]LogEditorViewport: Clicking on Actor (LMB): Light_C (Light2)
+[2021.05.01-07.19.01:859][585]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Animation_assets/Blueprints/Light.Light
+[2021.05.01-07.19.09:724][455]LogSlate: Window 'Light' being destroyed
+[2021.05.01-07.19.09:728][455]LogSlate: Window 'Light' being destroyed
+[2021.05.01-07.19.09:750][455]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.19.09:750][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.01-07.19.14:699][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.05.01-07.19.17:530][ 11]LogSlate: Window 'Save Content' being destroyed
+[2021.05.01-07.19.17:579][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2021.05.01-07.19.18:355][ 11]LogSavePackage: Moving '../../../../../../Users/Mr JayLazza Sir/Desktop/Unity Project/CaptiveQuandary/CaptiveQuandaryGB/CaptiveQuandaryGB/Saved/FirstPersonExampleMap820B84BD4D758A16A2C4F992CF6AEEB3.tmp' to '../../../../../../Users/Mr JayLazza Sir/Desktop/Unity Project/CaptiveQuandary/CaptiveQuandaryGB/CaptiveQuandaryGB/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.05.01-07.19.18:382][ 11]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.822
+[2021.05.01-07.19.19:755][ 11]LogSavePackage: Moving '../../../../../../Users/Mr JayLazza Sir/Desktop/Unity Project/CaptiveQuandary/CaptiveQuandaryGB/CaptiveQuandaryGB/Saved/FirstPersonExampleMap_BuiltData8DAA72A049B9ED1AF9C9BF8DC471E1E9.tmp' to '../../../../../../Users/Mr JayLazza Sir/Desktop/Unity Project/CaptiveQuandary/CaptiveQuandaryGB/CaptiveQuandaryGB/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.01-07.19.19:829][ 11]LogSlate: Window 'CaptiveQuandaryGB - Unreal Editor' being destroyed
+[2021.05.01-07.19.19:969][ 11]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.01-07.19.19:969][ 11]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.01-07.19.19:969][ 11]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.05.01-07.19.19:978][ 12]Cmd: QUIT_EDITOR
+[2021.05.01-07.19.19:978][ 12]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.05.01-07.19.19:983][ 12]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.05.01-07.19.20:677][ 12]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.05.01-07.19.20:685][ 12]LogExit: Preparing to exit.
+[2021.05.01-07.19.21:686][ 12]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.19.21:688][ 12]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.19.21:690][ 12]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.19.21:691][ 12]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.19.21:693][ 12]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.19.21:695][ 12]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.19.21:698][ 12]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.19.21:700][ 12]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.19.21:701][ 12]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.19.21:755][ 12]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.01-07.19.21:756][ 12]LogExit: Editor shut down
+[2021.05.01-07.19.21:756][ 12]LogExit: Transaction tracking system shut down
+[2021.05.01-07.19.21:757][ 12]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.05.01-07.19.21:945][ 12]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (00000253399F4340), frame # 98012
+[2021.05.01-07.19.21:945][ 12]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002533992D080), frame # 98012
+[2021.05.01-07.19.21:946][ 12]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000253399B4400), frame # 98012
+[2021.05.01-07.19.21:947][ 12]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000253724C6C00), frame # 98012
+[2021.05.01-07.19.21:947][ 12]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002536E583A00), frame # 98012
+[2021.05.01-07.19.22:030][ 12]LogExit: Object subsystem successfully closed.
+[2021.05.01-07.19.22:052][ 12]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.05.01-07.19.22:072][ 12]LogModuleManager: Shutting down and abandoning module BlueprintGraph (796)
+[2021.05.01-07.19.22:072][ 12]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (794)
+[2021.05.01-07.19.22:072][ 12]LogModuleManager: Shutting down and abandoning module Voice (792)
+[2021.05.01-07.19.22:072][ 12]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (790)
+[2021.05.01-07.19.22:073][ 12]LogModuleManager: Shutting down and abandoning module SceneOutliner (788)
+[2021.05.01-07.19.22:073][ 12]LogModuleManager: Shutting down and abandoning module AddContentDialog (786)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module WidgetCarousel (785)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module EditorWidgets (782)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module CollectionManager (780)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2021.05.01-07.19.22:074][ 12]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2021.05.01-07.19.22:075][ 12]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2021.05.01-07.19.22:075][ 12]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2021.05.01-07.19.22:075][ 12]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2021.05.01-07.19.22:075][ 12]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2021.05.01-07.19.22:075][ 12]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2021.05.01-07.19.22:075][ 12]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2021.05.01-07.19.22:075][ 12]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2021.05.01-07.19.22:075][ 12]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2021.05.01-07.19.22:303][ 12]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2021.05.01-07.19.22:304][ 12]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2021.05.01-07.19.22:304][ 12]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2021.05.01-07.19.22:304][ 12]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2021.05.01-07.19.22:304][ 12]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2021.05.01-07.19.22:304][ 12]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2021.05.01-07.19.22:304][ 12]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2021.05.01-07.19.22:304][ 12]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2021.05.01-07.19.22:304][ 12]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2021.05.01-07.19.22:335][ 12]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2021.05.01-07.19.22:335][ 12]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2021.05.01-07.19.22:335][ 12]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2021.05.01-07.19.22:335][ 12]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2021.05.01-07.19.22:335][ 12]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2021.05.01-07.19.22:335][ 12]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2021.05.01-07.19.22:335][ 12]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2021.05.01-07.19.22:335][ 12]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2021.05.01-07.19.22:335][ 12]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2021.05.01-07.19.22:335][ 12]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2021.05.01-07.19.22:335][ 12]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2021.05.01-07.19.22:340][ 12]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2021.05.01-07.19.22:340][ 12]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2021.05.01-07.19.22:340][ 12]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2021.05.01-07.19.22:340][ 12]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2021.05.01-07.19.22:340][ 12]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2021.05.01-07.19.22:340][ 12]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2021.05.01-07.19.22:340][ 12]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2021.05.01-07.19.22:340][ 12]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2021.05.01-07.19.22:340][ 12]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2021.05.01-07.19.22:341][ 12]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2021.05.01-07.19.22:431][ 12]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2021.05.01-07.19.22:434][ 12]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2021.05.01-07.19.22:434][ 12]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2021.05.01-07.19.22:434][ 12]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2021.05.01-07.19.22:434][ 12]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.05.01-07.19.22:435][ 12]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.05.01-07.19.22:536][ 12]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.05.01-07.19.22:636][ 12]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.05.01-07.19.22:636][ 12]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.05.01-07.19.22:636][ 12]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.05.01-07.19.22:637][ 12]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.05.01-07.19.22:637][ 12]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.05.01-07.19.22:637][ 12]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.05.01-07.19.22:637][ 12]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.05.01-07.19.22:637][ 12]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.05.01-07.19.22:637][ 12]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.05.01-07.19.22:637][ 12]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.05.01-07.19.22:637][ 12]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.05.01-07.19.22:637][ 12]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.05.01-07.19.22:637][ 12]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.05.01-07.19.22:637][ 12]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.05.01-07.19.22:639][ 12]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.05.01-07.19.22:640][ 12]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.05.01-07.19.22:641][ 12]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.05.01-07.19.22:642][ 12]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.05.01-07.19.22:642][ 12]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.05.01-07.19.22:642][ 12]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.05.01-07.19.22:642][ 12]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.05.01-07.19.22:642][ 12]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.05.01-07.19.22:642][ 12]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.05.01-07.19.22:642][ 12]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.05.01-07.19.22:642][ 12]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.05.01-07.19.22:642][ 12]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.05.01-07.19.22:642][ 12]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.05.01-07.19.22:643][ 12]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.05.01-07.19.22:645][ 12]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.05.01-07.19.22:645][ 12]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.05.01-07.19.22:645][ 12]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.05.01-07.19.22:645][ 12]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.05.01-07.19.22:646][ 12]LogHMD: Freeing OpenVRDLLHandle.
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.05.01-07.19.22:646][ 12]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.05.01-07.19.22:671][ 12]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.05.01-07.19.22:671][ 12]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.05.01-07.19.22:671][ 12]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEF36E810-45F7-C83C-BAF7-F880381F26A1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=42b7a66b4ca71358ffe37e93cfebbbfe%7C780df5de9ee54e3bbcc4088d5613e650%7Ce538ef50-9282-4258-8906-047b6d2a64e2&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.05.01-07.19.22:696][ 12]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.05.01-07.19.22:697][ 12]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.05.01-07.19.22:697][ 12]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.05.01-07.19.22:698][ 12]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.05.01-07.19.22:699][ 12]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.05.01-07.19.22:699][ 12]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.05.01-07.19.22:700][ 12]LogD3D11RHI: Shutdown
+[2021.05.01-07.19.22:700][ 12]LogD3D11RHI: CleanupD3DDevice
+[2021.05.01-07.19.22:720][ 12]LogExit: Exiting.
+[2021.05.01-07.19.22:738][ 12]Log file closed, 05/01/21 17:19:22
